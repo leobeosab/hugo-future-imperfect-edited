@@ -62,7 +62,7 @@ exampleSite
 |   │   └── migrate-from-jekyll.md
 |   ├── contact
 |   │   └── _index.md
-|   └── itemized
+|   └── projects
 |       ├── item1.md
 |       ├── item2.md
 |       ├── item3.md
