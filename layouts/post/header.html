@@ -20,6 +20,8 @@
         {{ if .Site.Params.includeReadingTime }}
             <p>{{ .ReadingTime }} minute read</p>
         {{ end }}
-        <!--<a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt="" /></a>-->
+        {{ if isset .Params "link" }}
+            <a href="{{ .Params.link }}" target="_blank">{{ .Params.linktitle }}</a>
+        {{ end }}
     </div>
 </header>
